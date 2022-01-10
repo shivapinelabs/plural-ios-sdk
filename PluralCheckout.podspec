@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "PluralCheckout"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "This PluralCheckout payment gateway"
   spec.description  = "Plural Checkout makes sure your customers spend more time adding to cart and less time navigating a lengthy online checkout process"
   spec.homepage     = "https://github.com/ankitaneja-pinelabs/plural-ios-sdk"
