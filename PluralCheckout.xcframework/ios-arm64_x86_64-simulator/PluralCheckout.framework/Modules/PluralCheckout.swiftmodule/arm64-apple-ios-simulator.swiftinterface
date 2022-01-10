@@ -29,7 +29,7 @@ import WebKit
 }
 public class PluralPGPaymentManager {
   public init()
-  public static func open(option: PluralCheckout.Plural, environmentURL: Swift.String, Context ctx: UIKit.UIViewController, pluralPGResponseCallback: PluralCheckout.IPluralPGResponseCallback)
+  public static func open(option: PluralCheckout.Plural, environmentURL: PluralCheckout.PluralEnvironment, Context ctx: UIKit.UIViewController, pluralPGResponseCallback: PluralCheckout.IPluralPGResponseCallback)
   @objc deinit
 }
 public class Internet {
@@ -49,6 +49,15 @@ public protocol IPluralPGResponseCallback {
   public static let URL_NOT_FOUND: Swift.String
   public static let ZOOM_IN_DISABLE: Swift.String
   @objc deinit
+}
+public enum PluralEnvironment {
+  case isProd
+  case isDev
+  public static func == (a: PluralCheckout.PluralEnvironment, b: PluralCheckout.PluralEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public class Plural {
   public init()
@@ -70,3 +79,5 @@ public class Plural {
   public func getshowSavedCardsFeature() -> Swift.Bool
   @objc deinit
 }
+extension PluralCheckout.PluralEnvironment : Swift.Equatable {}
+extension PluralCheckout.PluralEnvironment : Swift.Hashable {}
