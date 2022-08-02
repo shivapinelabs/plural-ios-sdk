@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		slf08AHUbckjNZuj4vXyASFth2E=
+		</data>
 		<key>Headers/PluralCheckout-Swift.h</key>
 		<data>
-		fu/gQwats0DrDuW8T4ncdJkNyN4=
+		qxLSoypgc4tzoxa2r76HHTBr2To=
 		</data>
 		<key>Headers/PluralCheckout.h</key>
 		<data>
@@ -14,55 +18,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		biEoYnMOD+42oJ/a/6wNGkDfrTI=
+		uz/sXTCglBYbl1wjvCdtkV0+7DA=
 		</data>
 		<key>Modules/PluralCheckout.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gzXw2spDb5NnkgBfl0fTzQsw08o=
+		n1hsWO6KsUpjFJYWUzGgn4rp9gQ=
 		</data>
 		<key>Modules/PluralCheckout.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5cTfn0+9hkBLZI3fmW2F2pkv83s=
+		JV6Un5CoKaclz8I1NcogRH9z2nQ=
 		</data>
 		<key>Modules/PluralCheckout.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dDCzplRHpIz1G1ocLNzyt5mcH6U=
+		f2ivLTZez8jWVcpjzkV2LCNENqg=
 		</data>
 		<key>Modules/PluralCheckout.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		gzXw2spDb5NnkgBfl0fTzQsw08o=
+		n1hsWO6KsUpjFJYWUzGgn4rp9gQ=
 		</data>
 		<key>Modules/PluralCheckout.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		5cTfn0+9hkBLZI3fmW2F2pkv83s=
+		JV6Un5CoKaclz8I1NcogRH9z2nQ=
 		</data>
 		<key>Modules/PluralCheckout.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		dDCzplRHpIz1G1ocLNzyt5mcH6U=
+		f2ivLTZez8jWVcpjzkV2LCNENqg=
 		</data>
 		<key>Modules/PluralCheckout.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fZhHkXn0i4aY9M0OQORswrNoP4I=
+		0fQogSjs0i8KN9FvilRnvx34vAY=
 		</data>
 		<key>Modules/PluralCheckout.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fFtPUXBQBwYCrXnhPQqYRxlcA+w=
+		mQiV727qjbeeTsJ0/x4ssTV08RM=
 		</data>
 		<key>Modules/PluralCheckout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zbKPvRevOLB++jns6AhvXZRiPbo=
+		r3TWk1kigs6+PjGI5q6boK6W55E=
 		</data>
 		<key>Modules/PluralCheckout.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		fZhHkXn0i4aY9M0OQORswrNoP4I=
+		0fQogSjs0i8KN9FvilRnvx34vAY=
 		</data>
 		<key>Modules/PluralCheckout.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		fFtPUXBQBwYCrXnhPQqYRxlcA+w=
+		mQiV727qjbeeTsJ0/x4ssTV08RM=
 		</data>
 		<key>Modules/PluralCheckout.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		zbKPvRevOLB++jns6AhvXZRiPbo=
+		r3TWk1kigs6+PjGI5q6boK6W55E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,20 +78,27 @@
 		</data>
 		<key>PluralStoryboard.storyboardc/PluralPGActivityViewController.nib</key>
 		<data>
-		7wJFivh+KdBxbG2BqFJU+phakFA=
+		earVl2YGJwvZZ0NKkBVM0JO/bBw=
 		</data>
 		<key>PluralStoryboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		jyh2wmN2fBwM/Y0iTEYasTCtKx8=
+		n5lu+sLs0jpx2JRjX5tAXIgvH6o=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RoxWCMc2d/hFwhI/6ZM9B9qrRevNk6nvLkNVNVhwoJM=
+			</data>
+		</dict>
 		<key>Headers/PluralCheckout-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B8/BZXqBLlJfvsBxCg7CgiwHzsn7RdAjXQU5ZJ9SOa8=
+			bRSe3VdsmKUb2Q6SDM30iIAO/ueEOMQg4AQPhI5awFw=
 			</data>
 		</dict>
 		<key>Headers/PluralCheckout.h</key>
@@ -101,84 +112,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZK7oUH64hgG85QCJXHA82pBexgxneuF1oRPsFL+qPWo=
+			K9oRAYyMZI2sHgklw0z6+zb2uH+FaFX5kghMxEDFZ0I=
 			</data>
 		</dict>
 		<key>Modules/PluralCheckout.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			izoi9LOo6kef2OkQxt3F4PKyVjoZqTSz36fCF5YJ0mk=
+			6hOtZhFNar0k181xyyodgwfHjWWTJ5kRRdbF77qvpGk=
 			</data>
 		</dict>
 		<key>Modules/PluralCheckout.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RUAFJAkHz5NbsqtaB0SMQo5votEgxSrrEvRHxZaZepc=
+			WUq8eOzaclFM8ExjJRlwExjGevWfJpRBMvLSNPPfB3A=
 			</data>
 		</dict>
 		<key>Modules/PluralCheckout.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZK7oUH64hgG85QCJXHA82pBexgxneuF1oRPsFL+qPWo=
+			K9oRAYyMZI2sHgklw0z6+zb2uH+FaFX5kghMxEDFZ0I=
 			</data>
 		</dict>
 		<key>Modules/PluralCheckout.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			izoi9LOo6kef2OkQxt3F4PKyVjoZqTSz36fCF5YJ0mk=
+			6hOtZhFNar0k181xyyodgwfHjWWTJ5kRRdbF77qvpGk=
 			</data>
 		</dict>
 		<key>Modules/PluralCheckout.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RUAFJAkHz5NbsqtaB0SMQo5votEgxSrrEvRHxZaZepc=
+			WUq8eOzaclFM8ExjJRlwExjGevWfJpRBMvLSNPPfB3A=
 			</data>
 		</dict>
 		<key>Modules/PluralCheckout.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d/y2FlbCCbqtUIXjC2KAalr+Lck+uC+J9fSdEn5SL4s=
+			1SBZtR+6MM+KFOT4UeVqmX/hWHmDPJiPaSDcaU6FSzQ=
 			</data>
 		</dict>
 		<key>Modules/PluralCheckout.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Acud9sb+RMCoEfc0OMCCVIkCo0PTbP7yXWXvselv6fg=
+			pdw2ss24+aQffkEfmBDZ0E19sbvIOxKC/aFgvXZiBV0=
 			</data>
 		</dict>
 		<key>Modules/PluralCheckout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cpecg5qW7cjtu7YW2DeXepv/q8dZsLCNc0vPwuIoLv4=
+			RkNYMCWzel2y4VRxgiFyuTkj7NJ2ILcNE5WJYzaYL6k=
 			</data>
 		</dict>
 		<key>Modules/PluralCheckout.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d/y2FlbCCbqtUIXjC2KAalr+Lck+uC+J9fSdEn5SL4s=
+			1SBZtR+6MM+KFOT4UeVqmX/hWHmDPJiPaSDcaU6FSzQ=
 			</data>
 		</dict>
 		<key>Modules/PluralCheckout.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Acud9sb+RMCoEfc0OMCCVIkCo0PTbP7yXWXvselv6fg=
+			pdw2ss24+aQffkEfmBDZ0E19sbvIOxKC/aFgvXZiBV0=
 			</data>
 		</dict>
 		<key>Modules/PluralCheckout.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cpecg5qW7cjtu7YW2DeXepv/q8dZsLCNc0vPwuIoLv4=
+			RkNYMCWzel2y4VRxgiFyuTkj7NJ2ILcNE5WJYzaYL6k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -199,14 +210,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OJ4oGMhpNf8wwczo0XtSFurweyw7HxdPfX6cQ9ez5Pk=
+			QXeiSCxeaGkXvNyo2htjodfGTzv6ocZDOCa8Lu+5DCY=
 			</data>
 		</dict>
 		<key>PluralStoryboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fRzx2jFjuqIS0a/y9GiO2GmCa8C80S3QKBHq/dUIijQ=
+			AWds3FHXqb5AxKRX6OX7MR2Rf+W8CqUMuUI1MtFoJ7k=
 			</data>
 		</dict>
 	</dict>
