@@ -6,6 +6,6 @@ framework module PluralCheckout {
 }
 
 module PluralCheckout.Swift {
-    header "PluralCheckout-Swift.h"
-    requires objc
+  header "PluralCheckout-Swift.h"
+  requires objc
 }

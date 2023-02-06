@@ -1,0 +1,2481 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Toas",
+        "printedName": "Toas",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout4ToasC15backgroundColorSo7UIColorCvp",
+            "mangledName": "$s14PluralCheckout4ToasC15backgroundColorSo7UIColorCvp",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC15backgroundColorSo7UIColorCvg",
+                "mangledName": "$s14PluralCheckout4ToasC15backgroundColorSo7UIColorCvg",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC15backgroundColorSo7UIColorCvs",
+                "mangledName": "$s14PluralCheckout4ToasC15backgroundColorSo7UIColorCvs",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC15backgroundColorSo7UIColorCvM",
+                "mangledName": "$s14PluralCheckout4ToasC15backgroundColorSo7UIColorCvM",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "font",
+            "printedName": "font",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout4ToasC4fontSo6UIFontCvp",
+            "mangledName": "$s14PluralCheckout4ToasC4fontSo6UIFontCvp",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC4fontSo6UIFontCvg",
+                "mangledName": "$s14PluralCheckout4ToasC4fontSo6UIFontCvg",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC4fontSo6UIFontCvs",
+                "mangledName": "$s14PluralCheckout4ToasC4fontSo6UIFontCvs",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC4fontSo6UIFontCvM",
+                "mangledName": "$s14PluralCheckout4ToasC4fontSo6UIFontCvM",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textColor",
+            "printedName": "textColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout4ToasC9textColorSo7UIColorCvp",
+            "mangledName": "$s14PluralCheckout4ToasC9textColorSo7UIColorCvp",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC9textColorSo7UIColorCvg",
+                "mangledName": "$s14PluralCheckout4ToasC9textColorSo7UIColorCvg",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC9textColorSo7UIColorCvs",
+                "mangledName": "$s14PluralCheckout4ToasC9textColorSo7UIColorCvs",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC9textColorSo7UIColorCvM",
+                "mangledName": "$s14PluralCheckout4ToasC9textColorSo7UIColorCvM",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textInsets",
+            "printedName": "textInsets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout4ToasC10textInsetsSo06UIEdgeE0Vvp",
+            "mangledName": "$s14PluralCheckout4ToasC10textInsetsSo06UIEdgeE0Vvp",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC10textInsetsSo06UIEdgeE0Vvg",
+                "mangledName": "$s14PluralCheckout4ToasC10textInsetsSo06UIEdgeE0Vvg",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC10textInsetsSo06UIEdgeE0Vvs",
+                "mangledName": "$s14PluralCheckout4ToasC10textInsetsSo06UIEdgeE0Vvs",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC10textInsetsSo06UIEdgeE0VvM",
+                "mangledName": "$s14PluralCheckout4ToasC10textInsetsSo06UIEdgeE0VvM",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerRadius",
+            "printedName": "cornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout4ToasC12cornerRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s14PluralCheckout4ToasC12cornerRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC12cornerRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s14PluralCheckout4ToasC12cornerRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC12cornerRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s14PluralCheckout4ToasC12cornerRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC12cornerRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s14PluralCheckout4ToasC12cornerRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bottomPadding",
+            "printedName": "bottomPadding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout4ToasC13bottomPadding14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s14PluralCheckout4ToasC13bottomPadding12CoreGraphics7CGFloatVvp",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC13bottomPadding14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s14PluralCheckout4ToasC13bottomPadding12CoreGraphics7CGFloatVvg",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC13bottomPadding14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s14PluralCheckout4ToasC13bottomPadding12CoreGraphics7CGFloatVvs",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC13bottomPadding14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s14PluralCheckout4ToasC13bottomPadding12CoreGraphics7CGFloatVvM",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minimumHorizontalPadding",
+            "printedName": "minimumHorizontalPadding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout4ToasC24minimumHorizontalPadding14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s14PluralCheckout4ToasC24minimumHorizontalPadding12CoreGraphics7CGFloatVvp",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC24minimumHorizontalPadding14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s14PluralCheckout4ToasC24minimumHorizontalPadding12CoreGraphics7CGFloatVvg",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC24minimumHorizontalPadding14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s14PluralCheckout4ToasC24minimumHorizontalPadding12CoreGraphics7CGFloatVvs",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC24minimumHorizontalPadding14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s14PluralCheckout4ToasC24minimumHorizontalPadding12CoreGraphics7CGFloatVvM",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout4ToasC8duration14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s14PluralCheckout4ToasC8duration12CoreGraphics7CGFloatVvp",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC8duration14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s14PluralCheckout4ToasC8duration12CoreGraphics7CGFloatVvg",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC8duration14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s14PluralCheckout4ToasC8duration12CoreGraphics7CGFloatVvs",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC8duration14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s14PluralCheckout4ToasC8duration12CoreGraphics7CGFloatVvM",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Toas",
+                "printedName": "PluralCheckout.Toas",
+                "usr": "s:14PluralCheckout4ToasC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout4ToasC7defaultACvpZ",
+            "mangledName": "$s14PluralCheckout4ToasC7defaultACvpZ",
+            "moduleName": "PluralCheckout",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Toas",
+                    "printedName": "PluralCheckout.Toas",
+                    "usr": "s:14PluralCheckout4ToasC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout4ToasC7defaultACvgZ",
+                "mangledName": "$s14PluralCheckout4ToasC7defaultACvgZ",
+                "moduleName": "PluralCheckout",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(text:duration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PluralCheckout4ToasC4show4text8durationySS_SdtF",
+            "mangledName": "$s14PluralCheckout4ToasC4show4text8durationySS_SdtF",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismiss",
+            "printedName": "dismiss(animated:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PluralCheckout4ToasC7dismiss8animated10completionySb_yycSgtF",
+            "mangledName": "$s14PluralCheckout4ToasC7dismiss8animated10completionySb_yycSgtF",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PluralCheckout4ToasC",
+        "mangledName": "$s14PluralCheckout4ToasC",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Hashing_Algorithm",
+        "printedName": "Hashing_Algorithm",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "GenerateHash",
+            "printedName": "GenerateHash(base64string:strSecretKey:strHashType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PluralCheckout17Hashing_AlgorithmC12GenerateHash12base64string12strSecretKey0hF4TypeS2S_S2StFZ",
+            "mangledName": "$s14PluralCheckout17Hashing_AlgorithmC12GenerateHash12base64string12strSecretKey0hF4TypeS2S_S2StFZ",
+            "moduleName": "PluralCheckout",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PluralCheckout17Hashing_AlgorithmC",
+        "mangledName": "$s14PluralCheckout17Hashing_AlgorithmC",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PluralPGPaymentManager",
+        "printedName": "PluralPGPaymentManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PluralPGPaymentManager",
+                "printedName": "PluralCheckout.PluralPGPaymentManager",
+                "usr": "s:14PluralCheckout0A16PGPaymentManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PluralCheckout0A16PGPaymentManagerCACycfc",
+            "mangledName": "$s14PluralCheckout0A16PGPaymentManagerCACycfc",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(options:environment:context:pluralPGResponseCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PluralEnvironment",
+                "printedName": "PluralCheckout.PluralEnvironment",
+                "usr": "s:14PluralCheckout0A11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IPluralPGResponseCallback",
+                "printedName": "PluralCheckout.IPluralPGResponseCallback",
+                "usr": "s:14PluralCheckout25IPluralPGResponseCallbackP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PluralCheckout0A16PGPaymentManagerC4open7options11environment7context24pluralPGResponseCallbackySDySSypG_AA0A11EnvironmentOSo16UIViewControllerCAA07IPluraljK0_ptFZ",
+            "mangledName": "$s14PluralCheckout0A16PGPaymentManagerC4open7options11environment7context24pluralPGResponseCallbackySDySSypG_AA0A11EnvironmentOSo16UIViewControllerCAA07IPluraljK0_ptFZ",
+            "moduleName": "PluralCheckout",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PluralCheckout0A16PGPaymentManagerC",
+        "mangledName": "$s14PluralCheckout0A16PGPaymentManagerC",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Internet",
+        "printedName": "Internet",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Internet",
+                "printedName": "PluralCheckout.Internet",
+                "usr": "s:14PluralCheckout8InternetC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PluralCheckout8InternetCACycfc",
+            "mangledName": "$s14PluralCheckout8InternetCACycfc",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isInternetAvailable",
+            "printedName": "isInternetAvailable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PluralCheckout8InternetC02isC9AvailableSbyF",
+            "mangledName": "$s14PluralCheckout8InternetC02isC9AvailableSbyF",
+            "moduleName": "PluralCheckout",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PluralCheckout8InternetC",
+        "mangledName": "$s14PluralCheckout8InternetC",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IPluralPGResponseCallback",
+        "printedName": "IPluralPGResponseCallback",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onErrorOccured",
+            "printedName": "onErrorOccured(code:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PluralCheckout25IPluralPGResponseCallbackP14onErrorOccured4code7messageySi_SStF",
+            "mangledName": "$s14PluralCheckout25IPluralPGResponseCallbackP14onErrorOccured4code7messageySi_SStF",
+            "moduleName": "PluralCheckout",
+            "genericSig": "<τ_0_0 where τ_0_0 : PluralCheckout.IPluralPGResponseCallback>",
+            "sugared_genericSig": "<Self where Self : PluralCheckout.IPluralPGResponseCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTransactionResponse",
+            "printedName": "onTransactionResponse(paymentId:pluralOrderId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PluralCheckout25IPluralPGResponseCallbackP21onTransactionResponse9paymentId011pluralOrderJ0ySS_SStF",
+            "mangledName": "$s14PluralCheckout25IPluralPGResponseCallbackP21onTransactionResponse9paymentId011pluralOrderJ0ySS_SStF",
+            "moduleName": "PluralCheckout",
+            "genericSig": "<τ_0_0 where τ_0_0 : PluralCheckout.IPluralPGResponseCallback>",
+            "sugared_genericSig": "<Self where Self : PluralCheckout.IPluralPGResponseCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancelTxn",
+            "printedName": "onCancelTxn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PluralCheckout25IPluralPGResponseCallbackP11onCancelTxnyyF",
+            "mangledName": "$s14PluralCheckout25IPluralPGResponseCallbackP11onCancelTxnyyF",
+            "moduleName": "PluralCheckout",
+            "genericSig": "<τ_0_0 where τ_0_0 : PluralCheckout.IPluralPGResponseCallback>",
+            "sugared_genericSig": "<Self where Self : PluralCheckout.IPluralPGResponseCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14PluralCheckout25IPluralPGResponseCallbackP",
+        "mangledName": "$s14PluralCheckout25IPluralPGResponseCallbackP",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PluralPGConstant",
+        "printedName": "PluralPGConstant",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "RM_INTERNET_NOT_CONNECTED",
+            "printedName": "RM_INTERNET_NOT_CONNECTED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout0A10PGConstantC25RM_INTERNET_NOT_CONNECTEDSSvpZ",
+            "mangledName": "$s14PluralCheckout0A10PGConstantC25RM_INTERNET_NOT_CONNECTEDSSvpZ",
+            "moduleName": "PluralCheckout",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout0A10PGConstantC25RM_INTERNET_NOT_CONNECTEDSSvgZ",
+                "mangledName": "$s14PluralCheckout0A10PGConstantC25RM_INTERNET_NOT_CONNECTEDSSvgZ",
+                "moduleName": "PluralCheckout",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Timeout",
+            "printedName": "Timeout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout0A10PGConstantC7TimeoutSSvpZ",
+            "mangledName": "$s14PluralCheckout0A10PGConstantC7TimeoutSSvpZ",
+            "moduleName": "PluralCheckout",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout0A10PGConstantC7TimeoutSSvgZ",
+                "mangledName": "$s14PluralCheckout0A10PGConstantC7TimeoutSSvgZ",
+                "moduleName": "PluralCheckout",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SERVER_NOT_FOUND",
+            "printedName": "SERVER_NOT_FOUND",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout0A10PGConstantC16SERVER_NOT_FOUNDSSvpZ",
+            "mangledName": "$s14PluralCheckout0A10PGConstantC16SERVER_NOT_FOUNDSSvpZ",
+            "moduleName": "PluralCheckout",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout0A10PGConstantC16SERVER_NOT_FOUNDSSvgZ",
+                "mangledName": "$s14PluralCheckout0A10PGConstantC16SERVER_NOT_FOUNDSSvgZ",
+                "moduleName": "PluralCheckout",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "URL_NOT_FOUND",
+            "printedName": "URL_NOT_FOUND",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout0A10PGConstantC13URL_NOT_FOUNDSSvpZ",
+            "mangledName": "$s14PluralCheckout0A10PGConstantC13URL_NOT_FOUNDSSvpZ",
+            "moduleName": "PluralCheckout",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout0A10PGConstantC13URL_NOT_FOUNDSSvgZ",
+                "mangledName": "$s14PluralCheckout0A10PGConstantC13URL_NOT_FOUNDSSvgZ",
+                "moduleName": "PluralCheckout",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CANCEL_TRANSACATION_MSG",
+            "printedName": "CANCEL_TRANSACATION_MSG",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout0A10PGConstantC23CANCEL_TRANSACATION_MSGSSvpZ",
+            "mangledName": "$s14PluralCheckout0A10PGConstantC23CANCEL_TRANSACATION_MSGSSvpZ",
+            "moduleName": "PluralCheckout",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout0A10PGConstantC23CANCEL_TRANSACATION_MSGSSvgZ",
+                "mangledName": "$s14PluralCheckout0A10PGConstantC23CANCEL_TRANSACATION_MSGSSvgZ",
+                "moduleName": "PluralCheckout",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "BANK_HEADER_INTIAL_TITLE",
+            "printedName": "BANK_HEADER_INTIAL_TITLE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout0A10PGConstantC24BANK_HEADER_INTIAL_TITLESSvpZ",
+            "mangledName": "$s14PluralCheckout0A10PGConstantC24BANK_HEADER_INTIAL_TITLESSvpZ",
+            "moduleName": "PluralCheckout",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout0A10PGConstantC24BANK_HEADER_INTIAL_TITLESSvgZ",
+                "mangledName": "$s14PluralCheckout0A10PGConstantC24BANK_HEADER_INTIAL_TITLESSvgZ",
+                "moduleName": "PluralCheckout",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ZOOM_IN_DISABLE",
+            "printedName": "ZOOM_IN_DISABLE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout0A10PGConstantC15ZOOM_IN_DISABLESSvpZ",
+            "mangledName": "$s14PluralCheckout0A10PGConstantC15ZOOM_IN_DISABLESSvpZ",
+            "moduleName": "PluralCheckout",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout0A10PGConstantC15ZOOM_IN_DISABLESSvgZ",
+                "mangledName": "$s14PluralCheckout0A10PGConstantC15ZOOM_IN_DISABLESSvgZ",
+                "moduleName": "PluralCheckout",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PluralCheckout0A10PGConstantC",
+        "mangledName": "$s14PluralCheckout0A10PGConstantC",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PluralEnvironment",
+        "printedName": "PluralEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isProd",
+            "printedName": "isProd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PluralCheckout.PluralEnvironment.Type) -> PluralCheckout.PluralEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PluralEnvironment",
+                    "printedName": "PluralCheckout.PluralEnvironment",
+                    "usr": "s:14PluralCheckout0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PluralCheckout.PluralEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PluralEnvironment",
+                        "printedName": "PluralCheckout.PluralEnvironment",
+                        "usr": "s:14PluralCheckout0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14PluralCheckout0A11EnvironmentO6isProdyA2CmF",
+            "mangledName": "$s14PluralCheckout0A11EnvironmentO6isProdyA2CmF",
+            "moduleName": "PluralCheckout"
+          },
+          {
+            "kind": "Var",
+            "name": "isDev",
+            "printedName": "isDev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PluralCheckout.PluralEnvironment.Type) -> PluralCheckout.PluralEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PluralEnvironment",
+                    "printedName": "PluralCheckout.PluralEnvironment",
+                    "usr": "s:14PluralCheckout0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PluralCheckout.PluralEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PluralEnvironment",
+                        "printedName": "PluralCheckout.PluralEnvironment",
+                        "usr": "s:14PluralCheckout0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14PluralCheckout0A11EnvironmentO5isDevyA2CmF",
+            "mangledName": "$s14PluralCheckout0A11EnvironmentO5isDevyA2CmF",
+            "moduleName": "PluralCheckout"
+          },
+          {
+            "kind": "Var",
+            "name": "isQA",
+            "printedName": "isQA",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PluralCheckout.PluralEnvironment.Type) -> PluralCheckout.PluralEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PluralEnvironment",
+                    "printedName": "PluralCheckout.PluralEnvironment",
+                    "usr": "s:14PluralCheckout0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PluralCheckout.PluralEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PluralEnvironment",
+                        "printedName": "PluralCheckout.PluralEnvironment",
+                        "usr": "s:14PluralCheckout0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14PluralCheckout0A11EnvironmentO4isQAyA2CmF",
+            "mangledName": "$s14PluralCheckout0A11EnvironmentO4isQAyA2CmF",
+            "moduleName": "PluralCheckout"
+          },
+          {
+            "kind": "Var",
+            "name": "isUAT",
+            "printedName": "isUAT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PluralCheckout.PluralEnvironment.Type) -> PluralCheckout.PluralEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PluralEnvironment",
+                    "printedName": "PluralCheckout.PluralEnvironment",
+                    "usr": "s:14PluralCheckout0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PluralCheckout.PluralEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PluralEnvironment",
+                        "printedName": "PluralCheckout.PluralEnvironment",
+                        "usr": "s:14PluralCheckout0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14PluralCheckout0A11EnvironmentO5isUATyA2CmF",
+            "mangledName": "$s14PluralCheckout0A11EnvironmentO5isUATyA2CmF",
+            "moduleName": "PluralCheckout"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PluralEnvironment",
+                "printedName": "PluralCheckout.PluralEnvironment",
+                "usr": "s:14PluralCheckout0A11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PluralEnvironment",
+                "printedName": "PluralCheckout.PluralEnvironment",
+                "usr": "s:14PluralCheckout0A11EnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PluralCheckout0A11EnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14PluralCheckout0A11EnvironmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "PluralCheckout",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PluralCheckout0A11EnvironmentO9hashValueSivp",
+            "mangledName": "$s14PluralCheckout0A11EnvironmentO9hashValueSivp",
+            "moduleName": "PluralCheckout",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PluralCheckout0A11EnvironmentO9hashValueSivg",
+                "mangledName": "$s14PluralCheckout0A11EnvironmentO9hashValueSivg",
+                "moduleName": "PluralCheckout",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PluralCheckout0A11EnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14PluralCheckout0A11EnvironmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "PluralCheckout",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14PluralCheckout0A11EnvironmentO",
+        "mangledName": "$s14PluralCheckout0A11EnvironmentO",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PluralCheckout",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Toaster\/Toast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Toaster\/Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 411,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Toaster\/Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 423,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Toaster\/Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 437,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Toaster\/Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 450,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Toaster\/Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 495,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Toaster\/Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 539,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Toaster\/Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 595,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Toaster\/Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 636,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Toaster\/ToastPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 285,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Toaster\/ToastPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 333,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Controller\/PluralPGActivityVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1175,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Controller\/PluralPGActivityVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1318,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Controller\/PluralPGActivityVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1447,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Controller\/PluralPGActivityVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1507,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Controller\/PluralPGActivityVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1568,
+      "length": 2,
+      "value": "62"
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 24,
+      "value": "\"INTERNET NOT CONNECTED\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 9,
+      "value": "\"Timeout\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 341,
+      "length": 18,
+      "value": "\"SERVER NOT FOUND\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 15,
+      "value": "\"URL NOT FOUND\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 473,
+      "length": 50,
+      "value": "\"Are you sure you want to cancel the transaction?\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 5,
+      "value": "\"OTP\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 44,
+      "value": "\"var meta = document.createElement('meta');\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 712,
+      "length": 25,
+      "value": "\"meta.name = 'viewport';\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 94,
+      "value": "\"meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 853,
+      "length": 54,
+      "value": "\"var head = document.getElementsByTagName('head')[0];\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 910,
+      "length": 25,
+      "value": "\"head.appendChild(meta);\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 15,
+      "value": "\"cancelPayment\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1149,
+      "length": 14,
+      "value": "\"showBankPage\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 17,
+      "value": "\"paymentResponse\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 14,
+      "value": "\"bankResponse\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1434,
+      "length": 18,
+      "value": "\"closeChildWindow\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1477,
+      "length": 14,
+      "value": "\"otpPageShown\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1518,
+      "length": 16,
+      "value": "\"otpPageRemoved\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 15,
+      "value": "\"cancelPayment\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1149,
+      "length": 14,
+      "value": "\"showBankPage\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 17,
+      "value": "\"paymentResponse\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 14,
+      "value": "\"bankResponse\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1434,
+      "length": 18,
+      "value": "\"closeChildWindow\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1477,
+      "length": 14,
+      "value": "\"otpPageShown\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1518,
+      "length": 16,
+      "value": "\"otpPageRemoved\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1617,
+      "length": 13,
+      "value": "\"iosListener\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1678,
+      "length": 21,
+      "value": "\"iosListenerBankPage\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1617,
+      "length": 13,
+      "value": "\"iosListener\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1678,
+      "length": 21,
+      "value": "\"iosListenerBankPage\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1815,
+      "length": 59,
+      "value": "\"http:\/\/pluraldev.com.s3-website.ap-south-1.amazonaws.com\/\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1901,
+      "length": 44,
+      "value": "\"https:\/\/checkout-staging.pluralonline.com\/\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1971,
+      "length": 39,
+      "value": "\"https:\/\/d3negm5n1f1ly2.cloudfront.net\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 2044,
+      "length": 35,
+      "value": "\"https:\/\/checkout.pluralonline.com\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1815,
+      "length": 59,
+      "value": "\"http:\/\/pluraldev.com.s3-website.ap-south-1.amazonaws.com\/\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1901,
+      "length": 44,
+      "value": "\"https:\/\/checkout-staging.pluralonline.com\/\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1971,
+      "length": 39,
+      "value": "\"https:\/\/d3negm5n1f1ly2.cloudfront.net\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 2044,
+      "length": 35,
+      "value": "\"https:\/\/checkout.pluralonline.com\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Toaster\/ToastViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 19,
+      "value": "\"PluralCheckout.ToastViewController\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 21,
+      "value": "\"PinePGSDK.lockQueue\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/PluralPGSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/priyankakuniyil\/Desktop\/PROJECTS\/iOS\/Plural\/Plural_Pay_Mobile_iOS_SDK\/PluralCheckout\/Supporting\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 3,
+      "value": "\"9\""
+    }
+  ]
+}
